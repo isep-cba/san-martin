@@ -120,3 +120,9 @@ p {
       .fantasma {
         opacity: 0;
       }
+
+      .resaltado {
+        padding: 4em 0;
+        color: #804B2B;
+        font-weight: 900;
+      }
