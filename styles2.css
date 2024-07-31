@@ -79,7 +79,7 @@ p {
     width: 100%;
     margin: 0;
     background-color: rgb(224, 219, 213);
-    background-image: url(img/gildecastro-sanmartin.jpeg);
+    background-image: url(img/imagen1.jpg);
     background-size: 100%;
     background-position: 50% 50%;
     z-index: 0;
@@ -89,6 +89,45 @@ p {
    
     transition: 2s;
   }
+
+  .sticky-thing2 {
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    background-color: rgb(224, 219, 213);
+    background-image: url(img/imagenes1.png);
+    background-size: 100%;
+    background-position: 50% 50%;
+    z-index: 0;
+    top: 0vh;
+    height: 100vh;
+    /* Center everything inside */
+   
+    transition: 2s;
+  }
+
+
+  .sticky-thing3 {
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    background-color: rgb(224, 219, 213);
+    background-image: url(img/imagenes2.png);
+    background-size: 100%;
+    background-position: 50% 50%;
+    z-index: 0;
+    top: 0vh;
+    height: 100vh;
+    /* Center everything inside */
+   
+    transition: 2s;
+  }
+
+
 
   .sticky-thing p {
     padding: 1rem;
