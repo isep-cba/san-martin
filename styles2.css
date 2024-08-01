@@ -1,14 +1,21 @@
+:root {
+  --color1: #804B2B;
+  --color2: #D09560;
+  --color3: #EFE1D5;
+  --color4: #6a8c93;
+  --fondo: #efece1;
+  --negro: #161615;
+}
 
 
 body {
-    background-color: rgb(236, 234, 232);
+    background-color: var(--fondo);
     font-family: Georgia, 'Times New Roman', Times, serif;
-
 }
 
 h3 {
     font-size: 1em;
-    opacity: 0.8;
+    line-height: 2em;
   }
 
 h2 {
@@ -18,12 +25,15 @@ h2 {
 
 h1 {
     font-size: 3em;
-    color: beige;
   }
 
 
 a {
-    color: #804B2B;
+    color: var(--color1);
+}
+
+a:hover {
+  color: var(--color4);
 }
 
 p {
@@ -67,14 +77,40 @@ figcaption {
   opacity: 0.8;
 }
 
+.referencias {
+  background-color: var(--color1);
+  color: var(--fondo);
+}
+
 .creditos {
-  background-color: #6a8c93;
-  color: white;
+  background-color: var(--color4);
+  color: var(--fondo);
 }
 
 .creditos p, li {
   color: white;
   font-size: 1em;
+}
+
+.referencias p, li {
+  color: white;
+  font-size: 1em;
+}
+
+.separador15 {
+  height: 15vh;
+}
+.separador5 {
+  height: 5vh;
+}
+
+.transparencia {
+  opacity: 0.7;
+}
+
+.titulo-seccion {
+  font-size: 3em;
+  color: #804B2B;
 }
 
 
