@@ -1,5 +1,9 @@
+
+
 body {
-    background-color: rgb(224, 219, 213);
+    background-color: rgb(236, 234, 232);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
 
 h3 {
@@ -17,9 +21,6 @@ h1 {
     color: beige;
   }
 
-h1, h2, h3 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
 
 a {
     color: #804B2B;
@@ -49,10 +50,37 @@ p {
 
  } 
 
+.reproductor {
+  position: sticky; 
+  top: 25vh; 
+  padding: 1em;
+}
+
+audio {
+  width: 100%;
+}
+
+figcaption {
+  font-size: 1em;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: right;
+  opacity: 0.8;
+}
+
+.creditos {
+  background-color: #6a8c93;
+  color: white;
+}
+
+.creditos p, li {
+  color: white;
+  font-size: 1em;
+}
+
 
   /* SCROLL MAGIC */
   
-  #scrolly {
+  .scrolly {
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -60,7 +88,7 @@ p {
     padding: 1rem;
   }
 
-  #scrolly > * {
+  .scrolly > * {
     -webkit-box-flex: 1;
     -ms-flex: 1;
     flex: 1;
@@ -78,7 +106,6 @@ p {
     left: 0;
     width: 100%;
     margin: 0;
-    background-color: rgb(224, 219, 213);
     background-image: url(img/imagen1.jpg);
     background-size: 100%;
     background-position: 50% 50%;
@@ -96,7 +123,6 @@ p {
     left: 0;
     width: 100%;
     margin: 0;
-    background-color: rgb(224, 219, 213);
     background-image: url(img/imagenes1.png);
     background-size: 100%;
     background-position: 50% 50%;
@@ -115,7 +141,6 @@ p {
     left: 0;
     width: 100%;
     margin: 0;
-    background-color: rgb(224, 219, 213);
     background-image: url(img/imagenes2.png);
     background-size: 100%;
     background-position: 50% 50%;
