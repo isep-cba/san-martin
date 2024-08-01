@@ -86,12 +86,12 @@ figcaption {
 }
 
 .creditos {
-  background-color: var(--color4);
-  color: var(--fondo);
+  background: url(img/fondo-creditos.jpg);
+  color: black;
 }
 
 .creditos p, li {
-  color: white;
+  color: black;
   font-size: 1em;
 }
 
