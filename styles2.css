@@ -67,6 +67,8 @@ p {
   position: sticky; 
   top: 25vh; 
   padding: 1em;
+  align-items: center;
+  text-align: center;
 }
 
 audio {
@@ -76,7 +78,7 @@ audio {
 figcaption {
   font-size: 1em;
   font-family: 'Times New Roman', Times, serif;
-  text-align: right;
+  text-align: center;
   opacity: 0.8;
 }
 
@@ -116,6 +118,22 @@ figcaption {
   color: #804B2B;
 }
 
+.cita {
+  margin-left: 2em;
+}
+
+
+.fantasma {
+  opacity: 0;
+}
+
+.resaltado {
+  padding: 0;
+  color: var(--color1);
+  font-weight: 900;
+  text-align: center;
+}
+
 
   /* SCROLL MAGIC */
   
@@ -128,6 +146,20 @@ figcaption {
   }
 
   .scrolly > * {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+
+  .scrolly2 {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 1rem;
+  }
+
+  .scrolly2 > * {
     -webkit-box-flex: 1;
     -ms-flex: 1;
     flex: 1;
@@ -202,30 +234,37 @@ figcaption {
 
   .step {
     margin: 0 auto 2rem auto;
-    
+  }
+
+  .step2 {
+    margin: 0 auto 2rem auto;
   }
 
   .step:last-child {
     margin-bottom: 0;
   }
 
+  .step2:last-child {
+    margin-bottom: 0;
+  }
+
   .step.is-active {
     color: #3b3b3b;
+    background-color: #D0956033;
+  }
+
+  .step2.is-active {
+    color: #3b3b3b;
+    background-color: #D0956033;
   }
 
   .step p {
     text-align: left;
     padding: 1rem;
-    
   }
 
-
-      .fantasma {
-        opacity: 0;
-      }
-
-      .resaltado {
-        padding: 4em 0;
-        color: #804B2B;
-        font-weight: 900;
-      }
+  .step2 p {
+    text-align: left;
+    padding: 1rem;
+  }
+      
