@@ -83,12 +83,18 @@ figcaption {
 }
 
 .referencias {
-  background-color: var(--color1);
-  color: var(--fondo);
+  color: black;
+}
+
+.indice-imagenes {
+  background-color: var(--color3);
+  color: black;
 }
 
 .creditos {
   background: url(img/fondo-creditos.jpg);
+  background-size: cover;
+  background-position: center;
   color: black;
 }
 
@@ -98,7 +104,7 @@ figcaption {
 }
 
 .referencias p, li {
-  color: white;
+  color: black;
   font-size: 1em;
 }
 
@@ -116,6 +122,7 @@ figcaption {
 .titulo-seccion {
   font-size: 3em;
   color: #804B2B;
+  margin: 0;
 }
 
 .cita {
