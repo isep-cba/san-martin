@@ -166,9 +166,8 @@ figcaption {
   }
 
   article {
-    position: relative;
     padding: 0 1rem;
-    
+    z-index: 1;
   }
 
   .sticky-thing {
@@ -234,10 +233,12 @@ figcaption {
 
   .step {
     margin: 0 auto 2rem auto;
+    z-index: 2;
   }
 
   .step2 {
     margin: 0 auto 2rem auto;
+    z-index: 2;
   }
 
   .step:last-child {

@@ -445,6 +445,7 @@
   <div class="container-fluid">
     <div class="row justify-content-center">
       
+
       <div class="col-md-5">
         
         <article>
@@ -461,19 +462,19 @@
             </p>
           </div>
 
-          <div class="step2" data-size="210%" data-position="100% 50%">
+          <div class="step2" data-size="290%" data-position="90% 50%">
             <p>
               El que más le interesa e incluso lo entusiasma es este otro, que coincide con la imagen más reconocible de San Martín, la que se impuso en la memoria pública:
             </p>
           </div>
 
-          <div class="step2" data-size="310%" data-position="90% 50%">
-            <p>
+          <div class="step2" data-size="290%" data-position="1% 50%">
+            <p class="cita">
               Tiene la expresión ideal y heroica, reveladora del temple de su alma, que ha sido trasportada al bronce, al modelar las cabezas de sus estatuas de Santiago de Chile y de Buenos Aires, cuyos rostros constituyen la parte más acabada y más notable de esta obra, así por su ejecución como por su expresión. (Mitre, 1887, p. 17)
             </p>
           </div>
 
-          <div class="step2" data-size="300%" data-position="100% 100%">
+          <div class="step2" data-size="200%" data-position="100% 100%">
             <p>
               Y, claro, lo que particularmente lo distingue es la bandera celeste y blanca, que lleva en la mano y a su vez lo envuelve. Agrega que era el favorito de San Martín, que lo tuvo con él hasta el final de sus días. Algo llamativo ocurre en relación con la atribución de la autoría de este relato que fue tomado en Bruselas, en el año 1827, según Mitre. Dice que fue “ejecutado […] por una artista belga, que era maestra de dibujo de su hija” (1887, p. 18), de Merceditas.
             </p>
@@ -487,12 +488,13 @@
     
         </article>
       </div>
-      
+
       <div class="col-md-4">
         <div class="sticky-thing2">
           <p></p>
         </div>
       </div>
+      
 
     </div>
   </div>
@@ -746,6 +748,7 @@
 
       // initialize the scrollama
       var scroller = scrollama();
+      var scroller2 = scrollama();
 
       // scrollama event handlers
       function handleStepEnter(response) {
@@ -759,6 +762,7 @@
 
         steps2.forEach(step2 => step2.classList.remove('is-active'));
         el.classList.add('is-active');
+
 
         // update graphic based on step
         sticky.style.backgroundSize = el.dataset.size;
@@ -783,7 +787,7 @@
           .onStepEnter(handleStepEnter);
 
 
-          scroller
+        scroller2
           .setup({
             step: "#scrolly2 article .step2",
             offset: 0.6,
@@ -794,6 +798,8 @@
 
         // setup resize event
         window.addEventListener("resize", scroller.resize);
+        window.addEventListener("resize", scroller2.resize);
+
       }
 
       // kick things off
