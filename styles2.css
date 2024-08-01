@@ -3,6 +3,7 @@
   --color2: #D09560;
   --color3: #EFE1D5;
   --color4: #6a8c93;
+  --color5: #86BCFB;
   --fondo: #efece1;
   --negro: #161615;
 }
@@ -26,7 +27,6 @@ h2 {
 h1 {
     font-size: 3em;
   }
-
 
 a {
     color: var(--color1);
@@ -57,8 +57,11 @@ p {
 
  .bloque {
     padding-top: 15vh;
-
  } 
+
+ .letra-clara p {
+  color: white;
+ }
 
 .reproductor {
   position: sticky; 
