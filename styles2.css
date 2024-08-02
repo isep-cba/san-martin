@@ -12,6 +12,7 @@
 body {
     background-color: var(--fondo);
     font-family: Georgia, 'Times New Roman', Times, serif;
+    word-wrap: break-word
 }
 
 h3 {
@@ -173,6 +174,7 @@ figcaption {
 }
 
 
+
   /* SCROLL MAGIC */
   
   .scrolly {
@@ -314,7 +316,7 @@ figcaption {
 
 .header {
   position: fixed;
-  top: 0;
+  bottom: 0;
   z-index: 1;
   width: 100%;
   background-color: var(--color3);
