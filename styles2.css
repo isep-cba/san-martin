@@ -8,6 +8,12 @@
   --negro: #161615;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 
 body {
     background-color: var(--fondo);
@@ -171,6 +177,11 @@ figcaption {
   text-indent: -1.5em;
   list-style-type: none;
   margin-bottom: 1em;
+}
+
+.logocc {
+  max-height: 1.5em;
+  margin-bottom: 0.3em;
 }
 
 
