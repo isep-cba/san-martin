@@ -135,10 +135,6 @@ figcaption {
   color: var(--color3);
 }
 
-.indice-imagenes {
-  color: var(--negro);
-}
-
 .indice-imagenes h2 {
   color: var(--color1);
 }
@@ -164,6 +160,16 @@ figcaption {
 
 .creditos h2,h3 {
   color: var(--color3);
+}
+
+.indice-imagenes a {
+  color: var(--color2);
+}
+
+.indice-imagenes li {
+  text-indent: -1.5em;
+  list-style-type: none;
+  margin-bottom: 1em;
 }
 
 
