@@ -66,6 +66,11 @@ p {
     padding-top: 15vh;
  } 
 
+.div-logos-header {
+  position: absolute;
+  bottom: 2em;
+}
+
  .letra-clara p,h1,h2,h3 {
   color: white;
  }
@@ -107,9 +112,10 @@ figcaption {
 }
 
 .titulo-seccion {
-  font-size: 3em;
+  font-size: 2em;
   color: #804B2B;
   margin: 0;
+  margin-bottom: 1em;
 }
 
 .cita {
@@ -142,8 +148,8 @@ figcaption {
   color: var(--color3);
 }
 
-.indice-imagenes h2 {
-  color: var(--color1);
+.titulo-imagenes {
+  color: var(--color3);
 }
 
 .referencias p,li {
@@ -170,7 +176,7 @@ figcaption {
 }
 
 .indice-imagenes a {
-  color: var(--color2);
+  color: var(--color3);
 }
 
 .indice-imagenes li {
