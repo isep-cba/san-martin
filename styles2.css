@@ -63,7 +63,8 @@ p {
   }
 
  .bloque {
-    padding-top: 15dvh;
+    padding-top: 15vh;
+    padding-top: 15svh;
  } 
 
 .div-logos-header {
@@ -424,7 +425,8 @@ figcaption {
 
 .header {
   position: fixed;
-  top: calc(100dvh - 8px);
+  top: calc(100vh - 8px);
+  top: calc(100svh - 8px);
   z-index: 1;
   width: 100%;
   background-color: var(--color3);
