@@ -63,7 +63,7 @@ p {
   }
 
  .bloque {
-    padding-top: 15vh;
+    padding-top: 15dvh;
  } 
 
 .div-logos-header {
@@ -83,7 +83,7 @@ p {
 
 .reproductor {
   position: sticky; 
-  top: 25vh; 
+  top: 25dvh; 
   padding: 1em;
   align-items: center;
   text-align: center;
@@ -101,10 +101,10 @@ figcaption {
 }
 
 .separador15 {
-  height: 15vh;
+  height: 15dvh;
 }
 .separador5 {
-  height: 5vh;
+  height: 5dvh;
 }
 
 .transparencia {
@@ -135,14 +135,14 @@ figcaption {
 
 
 .bloque-padding {
-  padding-top: 10vh;
-  padding-bottom: 10vh;
+  padding-top: 10dvh;
+  padding-bottom: 10dvh;
 }
 
 @media screen and (min-width: 600px) {
   .bloque-padding {
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-top: 5dvh;
+    padding-bottom: 5dvh;
   }
 }
 
@@ -169,8 +169,8 @@ figcaption {
 }
 
 .creditos {
-  padding-top: 10vh;
-  padding-bottom: 10vh;
+  padding-top: 10dvh;
+  padding-bottom: 10dvh;
 }
 
 .creditos p, li {
@@ -213,14 +213,14 @@ figcaption {
 
 @media screen and (min-width: 600px) {
   .bloque {
-    padding-top: 10vh;
-    padding-bottom: 5vh;
+    padding-top: 10dvh;
+    padding-bottom: 5dvh;
   }
 }
 @media screen and (max-width: 600px) {
   .bloque {
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-top: 5dvh;
+    padding-bottom: 5dvh;
   }
 }
 
@@ -229,7 +229,7 @@ figcaption {
     background-image: linear-gradient(to bottom, rgba(43, 22, 10, 0.788), rgba(187, 142, 97, 0.222)), url(img/imagen1.jpg); 
     background-size: cover; 
     background-position: 0% 100%;
-    height: 10vh;
+    height: 10dvh;
   }
 }
 
@@ -238,14 +238,14 @@ figcaption {
     background-image: linear-gradient(to bottom, rgba(43, 22, 10, 0.788), rgba(187, 142, 97, 0.222)), url(img/imagen1.jpg); 
     background-size: 180%; 
     background-position: 0% 100%;
-    height: 30vh;
+    height: 30dvh;
   }
 }
 
 .audio-celu {
   position: sticky;
   position: -webkit-sticky;
-  top: calc(100vh - 110px);
+  top: calc(100dvh - 110px);
   background-color: #efece1;
   padding: 1em;
   border-radius: 15px;
@@ -326,8 +326,8 @@ figcaption {
     background-size: 100%;
     background-position: 50% 50%;
     z-index: 0;
-    top: 0vh;
-    height: 100vh;
+    top: 0dvh;
+    height: 100dvh;
     /* Center everything inside */
    
     transition: 2s;
@@ -343,8 +343,8 @@ figcaption {
     background-size: 100%;
     background-position: 50% 50%;
     z-index: 0;
-    top: 0vh;
-    height: 100vh;
+    top: 0dvh;
+    height: 100dvh;
     /* Center everything inside */
    
     transition: 2s;
@@ -361,8 +361,8 @@ figcaption {
     background-size: 100%;
     background-position: 50% 50%;
     z-index: 0;
-    top: 0vh;
-    height: 100vh;
+    top: 0dvh;
+    height: 100dvh;
     /* Center everything inside */
    
     transition: 2s;
@@ -424,7 +424,7 @@ figcaption {
 
 .header {
   position: fixed;
-  top: calc(100% - 8px);
+  top: calc(100dvh - 8px);
   z-index: 1;
   width: 100%;
   background-color: var(--color3);
