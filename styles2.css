@@ -423,14 +423,7 @@ figcaption {
 
 /* BARRA DE PROGRESO GENERAL */
 
-.header {
-  position: fixed;
-  top: calc(100vh - 8px);
-  top: calc(100svh - 8px);
-  z-index: 1;
-  width: 100%;
-  background-color: var(--color3);
-}
+
 
 .progress-container {
   width: 100%;
@@ -452,7 +445,8 @@ figcaption {
 
 .bottom {
   position: fixed;
-  bottom: 0; 
+  top: calc(100vh - 8px);
+  top: calc(100svh - 8px);
   z-index: 1; 
   width: 100cqw; 
   padding: 0px;
