@@ -445,7 +445,7 @@ figcaption {
 
 .bottom {
   position: fixed;
-  bottom: 0px;
+  bottom: 0dvh;
   z-index: 1; 
   width: 100cqw; 
   padding: 0px;
