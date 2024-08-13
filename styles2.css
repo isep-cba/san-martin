@@ -334,6 +334,23 @@ figcaption {
     transition: 2s;
   }
 
+  .sticky-thingB {
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    background-image: url(img/C2-imagen1.jpg);
+    background-size: 100%;
+    background-position: 50% 50%;
+    z-index: 0;
+    top: 0dvh;
+    height: 100dvh;
+    /* Center everything inside */
+   
+    transition: 2s;
+  }
+
   .sticky-thing2 {
     position: -webkit-sticky;
     position: sticky;
@@ -351,6 +368,22 @@ figcaption {
     transition: 2s;
   }
 
+  .sticky-thing2B {
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    background-image: url(img/C2-imagen1.jpg);
+    background-size: 100%;
+    background-position: 50% 50%;
+    z-index: 0;
+    top: 0dvh;
+    height: 100dvh;
+    /* Center everything inside */
+   
+    transition: 2s;
+  }
 
   .sticky-thing3 {
     position: -webkit-sticky;
@@ -359,6 +392,23 @@ figcaption {
     width: 100%;
     margin: 0;
     background-image: url(img/imagenes2.png);
+    background-size: 100%;
+    background-position: 50% 50%;
+    z-index: 0;
+    top: 0dvh;
+    height: 100dvh;
+    /* Center everything inside */
+   
+    transition: 2s;
+  }
+
+  .sticky-thing3B {
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    background-image: url(img/C2-imagen2.JPG);
     background-size: 100%;
     background-position: 50% 50%;
     z-index: 0;
