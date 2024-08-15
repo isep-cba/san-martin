@@ -67,6 +67,11 @@ p {
     padding-top: 15svh;
  } 
 
+.nopad {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 .div-logos-header {
   position: absolute;
   bottom: 2em;
