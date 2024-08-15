@@ -135,3 +135,42 @@
     text-align: left;
     padding: 1rem;
   }
+
+  .scrolly3 {
+    position: relative;
+    display: flex;
+    padding: 1rem;
+  }
+  
+  .scrolly3 > * {
+    flex: 1;
+  }
+  
+  .sticky-thing4 {
+    position: sticky;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    background-image: url(img/C2-imagen2b.JPG);
+    background-size: 100%;
+    background-position: 50% 50%;
+    z-index: 0;
+    top: 0dvh;
+    height: 100dvh;
+    transition: 2s;
+  }
+  
+  .step3 {
+    margin: 0 auto 2rem auto;
+    z-index: 2;
+  }
+  
+  .step3.is-active {
+    color: #3b3b3b;
+    background-color: #D0956033;
+  }
+  
+  .step3 p {
+    text-align: left;
+    padding: 1rem;
+  }
