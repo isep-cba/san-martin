@@ -37,8 +37,8 @@
     background-size: 100%;
     background-position: 50% 50%;
     z-index: 0;
-    top: 0dvh;
-    height: 100dvh;
+    top: 10vh;
+    height: 80vh;
     /* Center everything inside */
    
     transition: 2s;
@@ -55,8 +55,8 @@
     background-size: 100%;
     background-position: 50% 50%;
     z-index: 0;
-    top: 0dvh;
-    height: 100dvh;
+    top: 10vh;
+    height: 80vh;
     /* Center everything inside */
    
     transition: 2s;
@@ -73,8 +73,8 @@
     background-size: 100%;
     background-position: 50% 50%;
     z-index: 0;
-    top: 0dvh;
-    height: 100dvh;
+    top: 10vh;
+    height: 80vh;
     /* Center everything inside */
    
     transition: 2s;
@@ -90,8 +90,8 @@
     background-size: 100%;
     background-position: 50% 50%;
     z-index: 0;
-    top: 0dvh;
-    height: 100dvh;
+    top: 10vh;
+    height: 80vh;
     /* Center everything inside */
    
     transition: 2s;
@@ -108,8 +108,8 @@
     background-size: 100%;
     background-position: 50% 50%;
     z-index: 0;
-    top: 0dvh;
-    height: 100dvh;
+    top: 10vh;
+    height: 80vh;
     /* Center everything inside */
    
     transition: 2s;
@@ -141,23 +141,23 @@
   }
 
   .step:last-child {
-    margin-bottom: 0;
+    margin-bottom: 10vh;
   }
 
   .step2:last-child {
-    margin-bottom: 0;
+    margin-bottom: 10vh;
   }
 
   .step3:last-child {
-    margin-bottom: 0;
+    margin-bottom: 10vh;
   }
 
   .step4:last-child {
-    margin-bottom: 0;
+    margin-bottom: 10vh;
   }
 
   .step5:last-child {
-    margin-bottom: 0;
+    margin-bottom: 10vh;
   }
 
   .step.is-active {
