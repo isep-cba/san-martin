@@ -2,7 +2,7 @@
 
   /* SCROLL MAGIC */
   
-  .scrolly, .scrolly2, .scrolly3, .scrolly4, .scrolly5  {
+  .scrolly {
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -10,22 +10,30 @@
     padding: 1rem;
   }
 
-  .scrolly, .scrolly2, .scrolly3, .scrolly4, .scrolly5 > * {
+  .scrolly > * {
     -webkit-box-flex: 1;
     -ms-flex: 1;
     flex: 1;
   }
 
+  .scrolly2 {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 1rem;
+  }
 
-
+  .scrolly2 > * {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
 
   article {
     padding: 0 1rem;
     z-index: 1;
   }
-
-
-
 
   .sticky-thing {
     position: -webkit-sticky;
@@ -33,7 +41,7 @@
     left: 0;
     width: 100%;
     margin: 0;
-    background-image: url(img/C2-imagen1.jpg);
+    background-image: url(img/imagen1.jpg);
     background-size: 100%;
     background-position: 50% 50%;
     z-index: 0;
@@ -51,7 +59,7 @@
     left: 0;
     width: 100%;
     margin: 0;
-    background-image: url(img/C2-imagen2b.JPG);
+    background-image: url(img/imagenes1.png);
     background-size: 100%;
     background-position: 50% 50%;
     z-index: 0;
@@ -63,56 +71,13 @@
   }
 
 
-  .sticky-thing3 {
-    position: -webkit-sticky;
-    position: sticky;
-    left: 0;
-    width: 100%;
-    margin: 0;
-    background-image: url(img/C2-imagen3.jpg);
-    background-size: 100%;
-    background-position: 50% 50%;
-    z-index: 0;
-    top: 10vh;
-    height: 80vh;
-    /* Center everything inside */
-   
-    transition: 2s;
-  }
-
-  .sticky-thing4 {
-    position: -webkit-sticky;
-    position: sticky;
-    left: 0;
-    width: 100%;
-    margin: 0;
-    background-image: url(img/C2-imagen10.jpg);
-    background-size: 100%;
-    background-position: 50% 50%;
-    z-index: 0;
-    top: 10vh;
-    height: 80vh;
-    /* Center everything inside */
-   
-    transition: 2s;
-  }
 
 
-  .sticky-thing5 {
-    position: -webkit-sticky;
-    position: sticky;
-    left: 0;
-    width: 100%;
-    margin: 0;
-    background-image: url(img/C2-imagen4.jpg);
-    background-size: 100%;
-    background-position: 50% 50%;
-    z-index: 0;
-    top: 10vh;
-    height: 80vh;
-    /* Center everything inside */
-   
-    transition: 2s;
+  .sticky-thing p {
+    padding: 1rem;
+    font-size: 8rem;
+    font-weight: 900;
+    color: #fff;
   }
 
   .step {
@@ -125,39 +90,12 @@
     z-index: 2;
   }
 
-  .step3 {
-    margin: 0 auto 2rem auto;
-    z-index: 2;
-  }
-
-  .step4 {
-    margin: 0 auto 2rem auto;
-    z-index: 2;
-  }
-
-  .step5 {
-    margin: 0 auto 2rem auto;
-    z-index: 2;
-  }
-
   .step:last-child {
-    margin-bottom: 10vh;
+    margin-bottom: 0;
   }
 
   .step2:last-child {
-    margin-bottom: 10vh;
-  }
-
-  .step3:last-child {
-    margin-bottom: 10vh;
-  }
-
-  .step4:last-child {
-    margin-bottom: 10vh;
-  }
-
-  .step5:last-child {
-    margin-bottom: 10vh;
+    margin-bottom: 0;
   }
 
   .step.is-active {
@@ -170,42 +108,12 @@
     background-color: #D0956033;
   }
 
-  .step3.is-active {
-    color: #3b3b3b;
-    background-color: #D0956033;
-  }
-
-  .step4.is-active {
-    color: #3b3b3b;
-    background-color: #D0956033;
-  }
-
-  .step5.is-active {
-    color: #3b3b3b;
-    background-color: #D0956033;
-  }
-
   .step p {
     text-align: left;
     padding: 1rem;
   }
 
   .step2 p {
-    text-align: left;
-    padding: 1rem;
-  }
-
-  .step3 p {
-    text-align: left;
-    padding: 1rem;
-  }
-
-  .step4 p {
-    text-align: left;
-    padding: 1rem;
-  }
-
-  .step5 p {
     text-align: left;
     padding: 1rem;
   }
